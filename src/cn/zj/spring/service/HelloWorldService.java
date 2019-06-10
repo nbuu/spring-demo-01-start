@@ -5,7 +5,7 @@ public class HelloWorldService {
 	
 		public void say(){
 
-		System.out.println("--你好世界！--");
+		System.out.println("--hello world！--");
 
 		}
 
