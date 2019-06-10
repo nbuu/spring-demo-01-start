@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!--
+
+     <bean>标签：用于声明一个类,在启动Spring框架的时候根据该配置的类创建对象到容器里面
+
+     name
+
+    -->
+
+   <bean name="helloWorldService" class="cn.zj.spring.service.HelloWorldService"></bean>
+
+ 
+
+ 
+
+</beans>
